@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  html {
+    font-family: 'Jost', sans-serif;
+  }
+  
+  body {
+    background-color: grey;
+  }
+  
+  header {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #1b995e;
+    color: white;
+    text-align: center;
+  }
+  
+  #assignment {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    width: 400px;
+    background-color: #1b995e;
+  }
+  
+  #assignment h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(27, 2, 2);
+    color: white;
+    margin: 0 0 1rem 0;
+  }
+  
+  #assignment ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  
+  #assignment li {
+    margin: 1rem 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #8ddba4;
+    padding: 0.5rem; 
+    color: black;
+    border-radius: 25px;
+  }
+  
+  
+  #assignment input {
+    font: inherit;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    width: 35%;
+  }
+  
+  #assignment input:focus {
+    outline: none;
+    border-color: #1b995e;
+    background-color: #d7fdeb;
+  }
+  
+  #assignment button {
+    font: inherit; 
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgb(11, 173, 106);
+    color: black;
+    width: 35%;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+    margin: 10px;
+  }
+  
+  #assignment button:hover,
+  #assignment button:active {
+    background-color: grey;
+    border: 1px solid #130207;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.26);
+  }
+ 
+
+  
